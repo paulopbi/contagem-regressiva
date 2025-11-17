@@ -16,11 +16,7 @@
 
 ## Introdução
 
-O **Contagem Regressiva** é um projeto simples e interativo que exibe uma **contagem regressiva para o próximo ano**, mostrando ao usuário quantos **dias, horas, minutos e segundos** faltam para a virada.
-
-O objetivo deste projeto é praticar **manipulação de datas com JavaScript**, **atualizações em tempo real no DOM** e **estilização responsiva** com CSS.
-
-Além disso, o projeto apresenta uma **animação de carregamento** que é exibida brevemente antes da contagem começar, oferecendo uma experiência mais agradável ao usuário.
+O **Contagem Regressiva** é um projeto simples e interativo que exibe uma **contagem regressiva para o próximo ano**, mostrando ao usuário quantos **dias, horas, minutos e segundos** faltam para a virada do ano.
 
 ## Demonstração
 
@@ -32,11 +28,14 @@ Além disso, o projeto apresenta uma **animação de carregamento** que é exibi
 
 Durante o desenvolvimento deste projeto, foram explorados os seguintes conceitos:
 
-- **Manipulação de Datas** com o objeto nativo `Date()` para calcular a diferença entre a data atual e o próximo ano.
-- **Atualização em tempo real** utilizando `setInterval()` para atualizar a contagem a cada segundo.
-- **Cálculos de tempo** em diferentes unidades (dias, horas, minutos e segundos).
-- **Carregamento dinâmico** com a exibição de um spinner antes da contagem começar.
-- **Estilização responsiva** utilizando `flexbox` e media queries.
+- **Manipulação de datas:**
+  - Utilizando o objeto nativo `Date()` para calcular a diferença entre a data atual e o próximo ano.
+- **Atualização em tempo real:**
+  - Utilização do `setInterval()` para atualizar a contagem a cada segundo.
+- **Cálculos de tempo:**
+  - Calcula os dados em diferentes unidades (dias, horas, minutos e segundos).
+- **Carregamento dinâmico:**
+  - Utiliza um spinner antes da contagem começar melhorando a _UX_.
 
 ## Tecnologias Utilizadas
 
